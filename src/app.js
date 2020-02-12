@@ -22,21 +22,21 @@ app.use(express.static(publicDirPath));
 app.get("", (req, res) => {
   res.render("index", {
     title: "Weather",
-    name: "Randy"
+    name: "Randy Herasme"
   });
 });
 
 app.get("/about", (req, res) => {
   res.render("about", {
     title: "About",
-    name: "Randy"
+    name: "Randy Herasme"
   });
 });
 
 app.get("/help", (req, res) => {
   res.render("help", {
     title: "Help",
-    name: "Randy"
+    name: "Randy Herasme"
   });
 });
 
